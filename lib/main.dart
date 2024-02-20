@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      initialRoute: '/skeleton',
+      initialRoute: '/',
       routes: {
         '/': (p0) => const HomeScreen(),
         '/skeleton': (p0) => const SkeletonScreen()
