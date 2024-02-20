@@ -1,16 +1,5 @@
-# sample_flutter
+# Sample Flutter
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<p>
+<img src="https://github.com/bhargav0147/sample_flutter/assets/119872080/79a5eb69-fbcc-4a61-98db-6f00c3c07265" height="20%" width="30%" >
+</p>
