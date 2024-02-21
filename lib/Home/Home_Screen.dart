@@ -34,7 +34,7 @@ class _HomeScreenState extends State<HomeScreen> {
           child: Column(
             children: [
               Padding(
-                padding: const EdgeInsets.all(10),
+                padding: const EdgeInsets.all(5.0),
                 child: Hero(
                   tag: 'skeleton',
                   
@@ -47,6 +47,31 @@ class _HomeScreenState extends State<HomeScreen> {
                       padding: const EdgeInsets.all(15),
                       child: Text(
                         'Skeleton',
+                        style: GoogleFonts.poppins(
+                          textStyle: const TextStyle(
+                            fontSize: 18,
+                            color: Colors.white,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(5.0),
+                child: Hero(
+                  tag: 'stepper',
+                  
+                  child: ElevatedButton(
+                    style: ElevatedButton.styleFrom(backgroundColor: Colors.blue),
+                    onPressed: () {
+                      Get.toNamed('/stepper');
+                    },
+                    child: Padding(
+                      padding: const EdgeInsets.all(15),
+                      child: Text(
+                        'Stepper',
                         style: GoogleFonts.poppins(
                           textStyle: const TextStyle(
                             fontSize: 18,
